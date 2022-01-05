@@ -6,7 +6,7 @@ import re
 from io import StringIO
 
 def load_model():
-    with open('saved_model.pkl', 'rb') as file:
+    with open('predictor.pkl', 'rb') as file:
         data = pickle.load(file)
     return data
 
